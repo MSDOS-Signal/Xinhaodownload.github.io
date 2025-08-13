@@ -443,7 +443,6 @@ window.addEventListener('scroll', throttle(function() {
 // 错误处理
 window.addEventListener('error', function(e) {
     console.error('页面错误:', e.error);
-    showNotification('页面出现错误，请刷新重试', 'error');
 });
 
 // 离线检测
