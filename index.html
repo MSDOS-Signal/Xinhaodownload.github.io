@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>炘灏墨麒麟 - 下载中心</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 背景动画 -->
+    <div class="background-animation">
+        <div class="grid-lines"></div>
+        <div class="floating-particles"></div>
+    </div>
+
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-dragon"></i>
+                <span>炘灏墨麒麟</span>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link active">首页</a>
+                <a href="#downloads" class="nav-link">下载</a>
+                <a href="#about" class="nav-link">关于</a>
+                <a href="#contact" class="nav-link">联系</a>
+            </div>
+            <!-- 移动端汉堡菜单按钮 -->
+            <button class="mobile-menu-toggle" aria-label="菜单">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <!-- 移动端侧边菜单 -->
+        <div class="mobile-menu">
+            <div class="mobile-menu-header">
+                <div class="mobile-menu-logo">
+                    <i class="fas fa-dragon"></i>
+                    <span>炘灏墨麒麟</span>
+                </div>
+                <button class="mobile-menu-close" aria-label="关闭菜单">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="mobile-menu-links">
+                <a href="#home" class="mobile-nav-link">首页</a>
+                <a href="#downloads" class="mobile-nav-link">下载</a>
+                <a href="#about" class="mobile-nav-link">关于</a>
+                <a href="#contact" class="mobile-nav-link">联系</a>
+            </div>
+        </div>
+        <!-- 移动端菜单遮罩 -->
+        <div class="mobile-menu-overlay"></div>
+    </nav>
+
+    <!-- 主要内容 -->
+    <main>
+        <!-- 英雄区域 -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="gradient-text">炘灏墨麒麟</span>
+                        <span class="subtitle">下载中心</span>
+                    </h1>
+                    <p class="hero-description">
+                        这是一个练手项目，包含多个平台的应用程序版本。
+                        <br>欢迎下载体验，如有问题请多多指教！
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#downloads" class="btn btn-primary">
+                            <i class="fas fa-download"></i>
+                            立即下载
+                        </a>
+                        <a href="#about" class="btn btn-secondary">
+                            <i class="fas fa-info-circle"></i>
+                            了解更多
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="floating-devices">
+                        <div class="device android">
+                            <i class="fab fa-android"></i>
+                        </div>
+                        <div class="device ios">
+                            <i class="fab fa-apple"></i>
+                        </div>
+                        <div class="device windows">
+                            <i class="fab fa-windows"></i>
+                        </div>
+                        <div class="device macos">
+                            <i class="fab fa-apple"></i>
+                        </div>
+                        <div class="device linux">
+                            <i class="fab fa-linux"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 下载区域 -->
+        <section id="downloads" class="downloads">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">下载中心</h2>
+                    <p class="section-subtitle">选择适合您设备的版本</p>
+                </div>
+                
+                <div class="download-grid">
+                    <!-- Android 版本 -->
+                    <div class="download-card android-card">
+                        <div class="card-header">
+                            <div class="platform-icon">
+                                <i class="fab fa-android"></i>
+                            </div>
+                            <div class="platform-info">
+                                <h3>Android</h3>
+                                <span class="version">v1.0.0</span>
+                            </div>
+                            <div class="status-badge ready">
+                                <i class="fas fa-check-circle"></i>
+                                可直接使用
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="description">Android APK 安装包，下载后直接安装即可使用</p>
+                            <div class="file-info">
+                                <span class="file-size">30MB</span>
+                                <span class="file-format">APK</span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="com.xinhao.ai-Signed.apk" class="btn btn-download" download>
+                                <i class="fas fa-download"></i>
+                                下载 APK
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Windows 版本 -->
+                    <div class="download-card windows-card">
+                        <div class="card-header">
+                            <div class="platform-icon">
+                                <i class="fab fa-windows"></i>
+                            </div>
+                            <div class="platform-info">
+                                <h3>Windows</h3>
+                                <span class="version">v1.0.0</span>
+                            </div>
+                            <div class="status-badge ready">
+                                <i class="fas fa-check-circle"></i>
+                                可直接使用
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="description">Windows 压缩包，解压后找到 exe 文件双击即可运行</p>
+                            <div class="file-info">
+                                <span class="file-size">44MB</span>
+                                <span class="file-format">ZIP</span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="Windows.zip" class="btn btn-download" download>
+                                <i class="fas fa-download"></i>
+                                下载 ZIP
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- iOS 版本 -->
+                    <div class="download-card ios-card">
+                        <div class="card-header">
+                            <div class="platform-icon">
+                                <i class="fab fa-apple"></i>
+                            </div>
+                            <div class="platform-info">
+                                <h3>iOS</h3>
+                                <span class="version">v1.0.0</span>
+                            </div>
+                            <div class="status-badge warning">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                需要构建
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="description">iOS 源码包，需要用户自己构建（作者不太喜欢苹果）</p>
+                            <div class="file-info">
+                                <span class="file-size">35MB</span>
+                                <span class="file-format">ZIP</span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="net9.0-ios.zip" class="btn btn-download" download>
+                                <i class="fas fa-download"></i>
+                                下载源码
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- macOS 版本 -->
+                    <div class="download-card macos-card">
+                        <div class="card-header">
+                            <div class="platform-icon">
+                                <i class="fab fa-apple"></i>
+                            </div>
+                            <div class="platform-info">
+                                <h3>macOS</h3>
+                                <span class="version">v1.0.0</span>
+                            </div>
+                            <div class="status-badge warning">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                需要构建
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="description">macOS Catalyst 源码包，需要用户自己构建（作者不太喜欢苹果）</p>
+                            <div class="file-info">
+                                <span class="file-size">34MB</span>
+                                <span class="file-format">ZIP</span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="net9.0-maccatalyst.zip" class="btn btn-download" download>
+                                <i class="fas fa-download"></i>
+                                下载源码
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Linux 版本 -->
+                    <div class="download-card linux-card">
+                        <div class="card-header">
+                            <div class="platform-icon">
+                                <i class="fab fa-linux"></i>
+                            </div>
+                            <div class="platform-info">
+                                <h3>Linux</h3>
+                                <span class="version">v1.0.0</span>
+                            </div>
+                            <div class="status-badge warning">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                需要构建
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="description">Linux 源码包，需要用户自己构建，支持多种发行版</p>
+                            <div class="file-info">
+                                <span class="file-size">源码</span>
+                                <span class="file-format">GitHub</span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://github.com/MSDOS-Signal/chatbaseinMAUI" class="btn btn-download" target="_blank">
+                                <i class="fab fa-github"></i>
+                                查看源码
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 使用说明 -->
+                <div class="usage-instructions">
+                    <h3><i class="fas fa-info-circle"></i> 使用说明</h3>
+                    <div class="instructions-grid">
+                        <div class="instruction-item">
+                            <div class="instruction-icon ready">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="instruction-content">
+                                <h4>Android & Windows</h4>
+                                <p>下载后可直接使用，无需额外配置</p>
+                            </div>
+                        </div>
+                        <div class="instruction-item">
+                            <div class="instruction-icon warning">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                            <div class="instruction-content">
+                                <h4>iOS, macOS & Linux</h4>
+                                <p>需要用户自己构建，作者不提供预编译版本</p>
+                            </div>
+                        </div>
+                        <div class="instruction-item">
+                            <div class="instruction-icon info">
+                                <i class="fas fa-bug"></i>
+                            </div>
+                            <div class="instruction-content">
+                                <h4>注意事项</h4>
+                                <p>这是练手项目，可能存在bug，请多多指教</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 关于作者 -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">关于作者</h2>
+                    <p class="section-subtitle">炘灏墨麒麟 - 河北墨麒麟</p>
+                </div>
+                
+                <div class="author-info">
+                    <div class="author-avatar">
+                        <i class="fas fa-dragon"></i>
+                    </div>
+                    <div class="author-details">
+                        <h3>炘灏墨麒麟</h3>
+                        <p class="author-bio">
+                            爱好计算机的一切，
+                            常用react vue nodejs springboot等，我是河北墨麒麟😋😋😋
+                        </p>
+                        <div class="author-achievements">
+      
+                            <div class="achievement">
+                                <i class="fas fa-code"></i>
+                                <span>主要技术栈React, Vue, Node.js, Spring Boot, MAUI</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 联系方式 -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">联系作者</h2>
+                    <p class="section-subtitle">欢迎交流讨论，共同进步</p>
+                </div>
+                
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h3>GitHub</h3>
+                        <p>查看源码和项目</p>
+                        <a href="https://github.com/MSDOS-Signal" class="btn btn-contact" target="_blank">
+                            <i class="fab fa-github"></i>
+                            访问 GitHub
+                        </a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-weixin"></i>
+                        </div>
+                        <h3>微信</h3>
+                        <p>DXH08060927</p>
+                        <button class="btn btn-contact" onclick="copyWeChat()">
+                            <i class="fas fa-copy"></i>
+                            复制微信号
+                        </button>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-qq"></i>
+                        </div>
+                        <h3>QQ</h3>
+                        <p>3878919117</p>
+                        <button class="btn btn-contact" onclick="copyQQ()">
+                            <i class="fas fa-copy"></i>
+                            复制QQ号
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-dragon"></i>
+                    <span>炘灏墨麒麟</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">首页</a>
+                    <a href="#downloads">下载</a>
+                    <a href="#about">关于</a>
+                    <a href="#contact">联系</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/MSDOS-Signal" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 炘灏墨麒麟. 这是一个练手项目，欢迎指教！</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 返回顶部按钮 -->
+    <button id="back-to-top" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- 通知提示 -->
+    <div id="notification" class="notification"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
