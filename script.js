@@ -486,7 +486,7 @@ function initTouchGestures() {
             }
         }
         
-    
+
     }, false);
     
     // 双击缩放禁用
