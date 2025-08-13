@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function() {
     initNavigation();
     initMobileMenu();
     initScrollEffects();
-    initBackToTop();
     initSmoothScrolling();
     initDownloadTracking();
     initParticleAnimation();
@@ -181,25 +180,7 @@ function initScrollEffects() {
     });
 }
 
-// 返回顶部功能
-function initBackToTop() {
-    const backToTopBtn = document.getElementById('back-to-top');
-    
-    window.addEventListener('scroll', function() {
-        if (window.scrollY > 300) {
-            backToTopBtn.classList.add('visible');
-        } else {
-            backToTopBtn.classList.remove('visible');
-        }
-    });
-    
-    backToTopBtn.addEventListener('click', function() {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
-    });
-}
+
 
 // 平滑滚动
 function initSmoothScrolling() {
@@ -505,13 +486,7 @@ function initTouchGestures() {
             }
         }
         
-        // 垂直滑动检测（用于返回顶部）
-        if (diffY > 100 && window.scrollY > 500) {
-            const backToTopBtn = document.getElementById('back-to-top');
-            if (backToTopBtn) {
-                backToTopBtn.click();
-            }
-        }
+    
     }, false);
     
     // 双击缩放禁用
