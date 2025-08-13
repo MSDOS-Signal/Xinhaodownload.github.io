@@ -1,4 +1,5 @@
-## 详情请转到这里[@MAUI-ai聊天]([https://github.com/MSDOS-Signal](https://github.com/MSDOS-Signal/chatbaseinMAUI))
+## 详情请转到这里
+-[@MAUI-ai聊天]([https://github.com/MSDOS-Signal](https://github.com/MSDOS-Signal/chatbaseinMAUI))
 
 
 
